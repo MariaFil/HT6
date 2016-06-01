@@ -139,12 +139,6 @@
 	margin-right: 0px;
 }
 
-.menu a:nth-child(4) {
-	padding-right: 1px;
-}
-
-
-
 .menu a {
 	display: inline-block;
 	margin-right: 10px;
@@ -258,6 +252,28 @@ nav {
 	right: 24px;
 }
 
+.search footer{
+	clear: both;	
+		
+}
+
+.search footer a{	
+	color: #154467;
+	font-size: 14px;
+	text-decoration: underline;
+	font-style: italic;	
+	font-family: Arial;	
+}
+
+.disk footer {
+	bottom: 1px;
+}
+
+.disk footer a {
+	font-family: Arial;
+	font-size: 14px;
+}	
+
 .collumn_2, .collumn_4 {
 	margin-top: 2px;
 } 
@@ -308,21 +324,7 @@ h3 span {
 .part{
 	float: right;
 }
-.search footer{
-	clear: both;
-	
-	color: #154467;
-	font-size: 14px;
-	text-decoration: underline;
-	font-style: italic;		
-}
 
-.search footer a{	
-	color: #154467;
-	font-size: 14px;
-	text-decoration: underline;
-	font-style: italic;		
-}
 .tire{
 	width: 190px;
 	height: 132px;
@@ -394,7 +396,7 @@ h3 span {
 .disk{
 	width: 265px;
 	height: 132px;
-	border: 1px solid #cdcdcd;
+	border: 2px solid #cdcdcd;
 	border-radius: 17px;
 	float: right;
 	position: relative;
