@@ -460,14 +460,14 @@ h3 span {
 
 .sect_3_right {
 	float: right;
+	
 }
 
 .slash {
 	position: absolute;
-	background-image: url(../img/slash.png);
-	right: 10px;
+	left: 113px;
+	top: 28px;
 }
-
 
 /*disk search*/
 
@@ -704,6 +704,7 @@ figcaption{
 	padding-top: 15px;
 	padding-bottom: 20px;
 }
+
 
 /*Sidebar brand*/
 .brand {
