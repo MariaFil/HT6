@@ -7,7 +7,7 @@
 	width: 921px;
 	background-color: #fff;
 	margin: 0 auto;
-	padding: 17px 45px;
+	padding: 17px 45px 0 45px;
 	font-family: Arial;
 }
 
@@ -99,6 +99,9 @@
 	padding-left: 15px;
 	margin-left: 17px;
 	margin-right: 10px;
+	-webkit-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+-moz-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
 }
 
 .top_nav a {
@@ -128,6 +131,9 @@
 	border-radius: 5px;	
 	margin-left: 6px;
 	padding-top: 5px;
+	-webkit-box-shadow: 10px 10px 5px -8px rgba(107,103,107,1);
+-moz-box-shadow: 10px 10px 5px -8px rgba(107,103,107,1);
+box-shadow: 10px 10px 5px -8px rgba(107,103,107,1);
 }
 
 .menu a:first-child {
@@ -199,6 +205,70 @@ nav {
 }
 /*SEARCH*/
 
+select {
+	border-left: 2px solid #979797;
+	border-top: 2px solid #979797;
+	border-bottom: none;
+	border-right: none;
+	background: transparent;
+	background: rgba(0,0,0,0);
+	-webkit-appearance: none;
+	outline: none;
+}
+
+.sect_1, .sect_2, .sect_3, .sect_4, .sect_5, .sect_6 {
+	overflow: hidden;
+	background: url(../img/arrow.png) right no-repeat;
+}
+
+.sect_1 {
+	width: 100px;		
+}
+
+.sect_2 {
+	width: 58px;
+}
+
+.sect_3 {
+	width: 50px;
+}
+
+.sect_4 {
+	width: 44px;
+}
+
+.sect_5  {
+	width: 58px;
+}
+
+.sect_6 {
+	width: 48px;
+}
+
+.sect_1 select {
+	width: 130px;	
+}
+
+.sect_2 select {
+	width: 78px;
+}
+
+.sect_3 select {
+	width: 70px;
+}
+
+.sect_4 select {
+	width: 64px;
+}
+
+.sect_5 select {
+	width: 78px;
+}
+
+.sect_6 select {
+	width: 68px;
+}
+
 .search {
 	margin-top: 10px;
 	margin-bottom: 20px;
@@ -244,6 +314,9 @@ nav {
 	margin-left: 12px;
 	padding-left: 10px;
 	position: relative;
+	-webkit-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+	-moz-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+	box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
 }
 
 .auto footer, .tire footer, .disk footer {
@@ -305,13 +378,6 @@ nav {
 	float: left;
 }
 
-.sect_1 select {
-	width: 100px;
-}
-
-.sect_2 select {
-	width: 58px;
-}
 
 h3 {	
 	font-size: 10px;	
@@ -329,10 +395,12 @@ h3 span {
 	width: 190px;
 	height: 132px;
 	border: 2px solid #cdcdcd;
-	border-radius: 17px;
-	
+	border-radius: 17px;	
 	float: left;
 	position: relative;
+	-webkit-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+	-moz-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+	box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
 }
 
 /*tire search*/
@@ -377,19 +445,29 @@ h3 span {
 	margin-bottom: 5px;
 }
 
-.sect_3 select {
-	width: 50px;
-}
 
-.sect_4 select {
-	width: 44px;
-}
 
 .tire_check {
 	margin-top: -3px;
 	font-size: 12px;
 	line-height: 4px;
 }
+
+.sect_3_left {
+	
+	float: left;
+}
+
+.sect_3_right {
+	float: right;
+}
+
+.slash {
+	position: absolute;
+	background-image: url(../img/slash.png);
+	right: 10px;
+}
+
 
 /*disk search*/
 
@@ -402,6 +480,9 @@ h3 span {
 	position: relative;
 	font-family: 'Lucida Sans Unicode';
 	margin: 0 11px 0 10px;
+	-webkit-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+	-moz-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+	box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
 }
 
 .disk header {
@@ -455,13 +536,7 @@ h3 span {
 	width: 68px;
 }
 
-.sect_5 select {
-	width: 58px;
-}
 
-.sect_6 select {
-	width: 48px;
-}
 
 /*CONTENT*/
 
@@ -472,8 +547,7 @@ h3 span {
 }
 /*SIDEBAR*/
 
-.catalog {	
-	margin-top: 3px;
+.catalog {		
 	padding-top: 3px;	
 	color: #0c3256;	
 	font-size: 13px;
@@ -483,8 +557,8 @@ h3 span {
 
 .sidebar img {
 	float: left;
-	padding-left: 4px;
-	padding-right: 2px;
+	padding-left: 2px;
+	padding-right: 2px;	
 }
 
 .sidebar {	
@@ -492,7 +566,10 @@ h3 span {
 	border-radius: 15px;
 	padding-right:7px;
 	padding-top: 3px;
-	padding-bottom: 3px;
+	padding-bottom: 4px;
+	-webkit-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+-moz-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
 }
 
 .name img {
@@ -504,9 +581,13 @@ h3 span {
 	margin-top: 12px;
 	margin-left: 8px;
 	width: 141px;
-	padding: 3px;	
+	padding: 1px 3px 2px 1px;	
 	border: 1px solid #cdcdcd;
 	border-radius: 15px;
+}
+
+.name_text {
+	margin-top: 3px;
 }
 
 .name_disk {
@@ -547,9 +628,16 @@ main {
 	width: 527px;
 	height: 628px;
 	border: 1px solid #e5e7e8;
-	border-radius: 5px;
-	background-image: url(../img/bg.png);
+	border-radius: 5px;	
 	float: left;
+	background: rgba(226,229,230,1);
+	background: -moz-linear-gradient(top, rgba(226,229,230,1) 0%, rgba(147,167,176,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,229,230,1)), color-stop(100%, rgba(147,167,176,1)));
+	background: -webkit-linear-gradient(top, rgba(226,229,230,1) 0%, rgba(147,167,176,1) 100%);
+	background: -o-linear-gradient(top, rgba(226,229,230,1) 0%, rgba(147,167,176,1) 100%);
+	background: -ms-linear-gradient(top, rgba(226,229,230,1) 0%, rgba(147,167,176,1) 100%);
+	background: linear-gradient(to bottom, rgba(226,229,230,1) 0%, rgba(147,167,176,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e5e6', endColorstr='#93a7b0', GradientType=0 );
 }
 
 .box {
@@ -613,7 +701,7 @@ figcaption{
 
 .line{
 	clear: both;
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-bottom: 20px;
 }
 
@@ -622,7 +710,8 @@ figcaption{
 	color: #0c3256;
 	font-size: 14px;
 	float: right;
-	padding-left: 15px;
+	padding-left: 7px;
+	margin-right: 9px;
 }
 
 .check{
@@ -644,6 +733,9 @@ figcaption{
 	background: -webkit-linear-gradient(top,  rgba(31,102,133,0.99) 1%,rgba(13,52,88,0.98) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  rgba(31,102,133,0.99) 1%,rgba(13,52,88,0.98) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1f6685', endColorstr='#fa0d3458',GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+	-moz-box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
+	box-shadow: 10px 10px 8px -9px rgba(97,96,97,0.72);
 }
 
 button:active, button:focus{
